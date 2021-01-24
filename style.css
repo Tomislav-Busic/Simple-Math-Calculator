@@ -47,3 +47,56 @@ input[type=button]:hover{
     background: #cbcbcb;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+    table {
+        width: 950px;
+        height: 1800px;
+        margin: 30px auto;
+        background: #663399;
+        border: none;
+        border-radius: 10px;
+        padding: 0px 20px 20px; 
+    }
+    
+    .heading {
+        color: white;
+        font-size: 500%;
+        text-align: center;
+    }
+    
+    #input, #answer {
+        width: 900px;
+        height: 200px;
+        font-size: 810%;
+        text-align: right;
+        border: none;
+    }
+    
+    #input {
+        border-radius: 5px 5px 0px 0px;
+        box-shadow: 2px 2px 2px black;
+        color: #1e1e1e;
+    }
+    
+    #answer {
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    input[type=button] {
+        height: 200px;
+        width: 200px;
+        font-size: 400%;
+        color: blue;
+        background: white;
+        margin: 5px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    input[type=button]:hover{
+        background: #cbcbcb;
+        cursor: pointer;
+    } 
+}
